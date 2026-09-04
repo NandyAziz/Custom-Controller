@@ -1,0 +1,40 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Kotlin / Java
+*.class
+
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs / reports
+*.log
+
+# Local secrets / environment
+.env
+*.local
+
+# Release artifacts should be attached to GitHub Releases, not committed here
+release-artifacts/
+
+# Release-only Windows binary
+installer/CustomController.Server.exe
